@@ -1,0 +1,176 @@
+﻿===== PHÂN TÍCH KHÁM PHÁ: CUNG HOÀNG ĐẠO VÀ KẾT QUẢ THI =====
+
+Thống kê điểm theo Cung Hoàng Đạo:
+               Tổng điểm               Toán Ngữ văn Tiếng Anh Vật lí Hóa học Sinh học Lịch sử Địa lí GDCD/KTPL
+                    mean   std  count  mean    mean      mean   mean    mean     mean    mean   mean      mean
+Cung Hoàng Đạo                                                                                                
+Ma Kết             25.10  4.27  10553  5.29    7.07      5.70   6.98    5.98     6.29    6.63   6.83      7.98
+Song Ngư           25.07  4.32   9276  5.26    7.08      5.67   6.98    5.94     6.37    6.73   6.86      7.97
+Bảo Bình           25.05  4.28   9135  5.28    7.08      5.68   7.00    5.94     6.30    6.70   6.81      7.98
+Xử Nữ              25.05  4.29  11017  5.26    7.06      5.67   6.98    5.94     6.39    6.73   6.83      7.94
+Bạch Dương         25.04  4.25   9633  5.25    7.08      5.66   6.95    5.91     6.27    6.69   6.82      8.00
+Sư Tử              25.04  4.32  10049  5.25    7.05      5.65   6.95    5.95     6.27    6.67   6.84      8.02
+Thiên Bình         25.03  4.24  12166  5.25    7.05      5.66   6.99    5.97     6.28    6.68   6.81      7.96
+Nhân Mã            25.03  4.29  13625  5.27    7.04      5.69   6.97    5.96     6.32    6.67   6.80      7.94
+Song Tử            25.02  4.29   9701  5.25    7.08      5.67   6.99    5.97     6.20    6.62   6.82      7.99
+Bọ Cạp             25.02  4.31  13960  5.28    7.06      5.64   6.99    5.95     6.18    6.68   6.78      7.95
+Kim Ngưu           25.01  4.27   9873  5.25    7.07      5.66   6.97    5.96     6.32    6.63   6.76      7.97
+Cự Giải            24.97  4.29  10160  5.26    7.06      5.68   6.98    5.96     6.29    6.66   6.82      7.92
+
+ANOVA Test - So sánh điểm tổng giữa 12 cung hoàng đạo:
+   F-statistic: 0.5592
+   p-value: 0.863106
+   Kết luận: Với p-value = 0.8631, không có bằng chứng đủ mạnh để khẳng định sự khác biệt có ý nghĩa thống kê giữa các nhóm.
+Cung hoàng đạo có điểm cao nhất theo môn:
+Tổng điểm: Ma Kết
+Ngữ văn: Bạch Dương, Bảo Bình, Song Ngư, Song Tử
+Toán: Ma Kết
+Tiếng Anh: Ma Kết
+Vật lí: Bảo Bình
+Hóa học: Ma Kết
+Sinh học: Xử Nữ
+Lịch sử: Song Ngư, Xử Nữ
+Địa lí: Song Ngư
+GDCD/KTPL: Sư Tử
+
+Tổ hợp môn thi phổ biến nhất theo cung hoàng đạo:
+Cự Giải: A01, D01, D10, C01
+Nhân Mã: A01, D01, D10, C01
+Sư Tử: A01, D01, D10, C01
+Bạch Dương: A01, D01, D10, C01
+Bọ Cạp: A01, D01, D10, C01
+Xử Nữ: A01, D01, D10, C01
+Song Tử: A01, D01, D10, C01
+Song Ngư: A01, D01, D10, C01
+Ma Kết: A01, D01, D10, C01
+Kim Ngưu: A01, D01, D10, C01
+Bảo Bình: A01, D01, D10, C01
+Thiên Bình: A01, D01, D10, C01
+
+Tổ hợp điểm cao nhất theo Cung Hoàng Đạo:
+
+Tổ hợp A00 (Toán, Vật lí, Hóa học):
+Cung hoàng đạo tổng mean cao nhất: Ma Kết (tổng mean: 18.25)
+
+Tổ hợp A01 (Toán, Vật lí, Tiếng Anh):
+Cung hoàng đạo tổng mean cao nhất: Ma Kết (tổng mean: 17.97)
+
+Tổ hợp A02 (Toán, Vật lí, Sinh học):
+Cung hoàng đạo tổng mean cao nhất: Xử Nữ (tổng mean: 18.63)
+
+Tổ hợp A03 (Toán, Vật lí, Lịch sử):
+Cung hoàng đạo tổng mean cao nhất: Xử Nữ (tổng mean: 18.98)
+
+Tổ hợp A04 (Toán, Vật lí, Địa lí):
+Cung hoàng đạo tổng mean cao nhất: Song Ngư (tổng mean: 19.11)
+
+Tổ hợp A05 (Toán, Hóa học, Lịch sử):
+Cung hoàng đạo tổng mean cao nhất: Xử Nữ (tổng mean: 17.94)
+
+Tổ hợp A06 (Toán, Hóa học, Địa lí):
+Cung hoàng đạo tổng mean cao nhất: Ma Kết (tổng mean: 18.10)
+
+Tổ hợp A07 (Toán, Lịch sử, Địa lí):
+Cung hoàng đạo tổng mean cao nhất: Song Ngư (tổng mean: 18.86)
+
+Tổ hợp A08 (Toán, Lịch sử, GDCD/KTPL):
+Cung hoàng đạo tổng mean cao nhất: Song Ngư (tổng mean: 19.96)
+
+Tổ hợp A09 (Toán, Địa lí, GDCD/KTPL):
+Cung hoàng đạo tổng mean cao nhất: Sư Tử (tổng mean: 20.12)
+
+Tổ hợp A10 (Toán, Vật lí, GDCD/KTPL):
+Cung hoàng đạo tổng mean cao nhất: Bảo Bình (tổng mean: 20.26)
+
+Tổ hợp A11 (Toán, Hóa học, GDCD/KTPL):
+Cung hoàng đạo tổng mean cao nhất: Ma Kết (tổng mean: 19.25)
+
+Tổ hợp B00 (Toán, Hóa học, Sinh học):
+Cung hoàng đạo tổng mean cao nhất: Xử Nữ (tổng mean: 17.60)
+
+Tổ hợp B02 (Toán, Sinh học, Địa lí):
+Cung hoàng đạo tổng mean cao nhất: Song Ngư (tổng mean: 18.49)
+
+Tổ hợp B03 (Toán, Sinh học, Ngữ văn):
+Cung hoàng đạo tổng mean cao nhất: Xử Nữ (tổng mean: 18.71)
+
+Tổ hợp B04 (Toán, Sinh học, GDCD/KTPL):
+Cung hoàng đạo tổng mean cao nhất: Song Ngư (tổng mean: 19.60)
+
+Tổ hợp B08 (Toán, Sinh học, Tiếng Anh):
+Cung hoàng đạo tổng mean cao nhất: Xử Nữ (tổng mean: 17.33)
+
+Tổ hợp C00 (Ngữ văn, Lịch sử, Địa lí):
+Cung hoàng đạo tổng mean cao nhất: Song Ngư (tổng mean: 20.67)
+
+Tổ hợp C01 (Ngữ văn, Toán, Vật lí):
+Cung hoàng đạo tổng mean cao nhất: Bảo Bình (tổng mean: 19.35)
+
+Tổ hợp C02 (Ngữ văn, Toán, Hóa học):
+Cung hoàng đạo tổng mean cao nhất: Ma Kết (tổng mean: 18.34)
+
+Tổ hợp C03 (Ngữ văn, Toán, Lịch sử):
+Cung hoàng đạo tổng mean cao nhất: Song Ngư (tổng mean: 19.07)
+
+Tổ hợp C04 (Ngữ văn, Toán, Địa lí):
+Cung hoàng đạo tổng mean cao nhất: Song Ngư (tổng mean: 19.20)
+
+Tổ hợp C05 (Ngữ văn, Vật lí, Hóa học):
+Cung hoàng đạo tổng mean cao nhất: Song Tử (tổng mean: 20.04)
+
+Tổ hợp C08 (Ngữ văn, Hóa học, Sinh học):
+Cung hoàng đạo tổng mean cao nhất: Xử Nữ (tổng mean: 19.39)
+
+Tổ hợp C12 (Ngữ văn, Lịch sử, Sinh học):
+Cung hoàng đạo tổng mean cao nhất: Xử Nữ (tổng mean: 20.18)
+
+Tổ hợp C13 (Ngữ văn, Sinh học, Địa lí):
+Cung hoàng đạo tổng mean cao nhất: Song Ngư (tổng mean: 20.31)
+
+Tổ hợp C14 (Ngữ văn, Toán, GDCD/KTPL):
+Cung hoàng đạo tổng mean cao nhất: Ma Kết (tổng mean: 20.34)
+
+Tổ hợp C17 (Ngữ văn, Hóa học, GDCD/KTPL):
+Cung hoàng đạo tổng mean cao nhất: Song Tử (tổng mean: 21.04)
+
+Tổ hợp C19 (Ngữ văn, Lịch sử, GDCD/KTPL):
+Cung hoàng đạo tổng mean cao nhất: Song Ngư (tổng mean: 21.78)
+
+Tổ hợp C20 (Ngữ văn, Địa lí, GDCD/KTPL):
+Cung hoàng đạo tổng mean cao nhất: Sư Tử (tổng mean: 21.92)
+
+Tổ hợp D01 (Ngữ văn, Toán, Tiếng Anh):
+Cung hoàng đạo tổng mean cao nhất: Ma Kết (tổng mean: 18.06)
+
+Tổ hợp D07 (Toán, Hóa học, Tiếng Anh):
+Cung hoàng đạo tổng mean cao nhất: Ma Kết (tổng mean: 16.97)
+
+Tổ hợp D08 (Toán, Sinh học, Tiếng Anh):
+Cung hoàng đạo tổng mean cao nhất: Xử Nữ (tổng mean: 17.33)
+
+Tổ hợp D09 (Toán, Lịch sử, Tiếng Anh):
+Cung hoàng đạo tổng mean cao nhất: Xử Nữ (tổng mean: 17.67)
+
+Tổ hợp D10 (Toán, Địa lí, Tiếng Anh):
+Cung hoàng đạo tổng mean cao nhất: Ma Kết (tổng mean: 17.82)
+
+Tổ hợp D11 (Ngữ văn, Vật lí, Tiếng Anh):
+Cung hoàng đạo tổng mean cao nhất: Ma Kết (tổng mean: 19.75)
+
+Tổ hợp D12 (Ngữ văn, Hóa học, Tiếng Anh):
+Cung hoàng đạo tổng mean cao nhất: Ma Kết (tổng mean: 18.75)
+
+Tổ hợp D13 (Ngữ văn, Sinh học, Tiếng Anh):
+Cung hoàng đạo tổng mean cao nhất: Xử Nữ (tổng mean: 19.12)
+
+Tổ hợp D14 (Ngữ văn, Lịch sử, Tiếng Anh):
+Cung hoàng đạo tổng mean cao nhất: Song Ngư (tổng mean: 19.48)
+
+Tổ hợp D15 (Ngữ văn, Địa lí, Tiếng Anh):
+Cung hoàng đạo tổng mean cao nhất: Song Ngư (tổng mean: 19.61)
+
+Tổ hợp D66 (Ngữ văn, GDCD/KTPL, Tiếng Anh):
+Cung hoàng đạo tổng mean cao nhất: Ma Kết (tổng mean: 20.75)
+
+Tổ hợp D84 (Toán, Tiếng Anh, GDCD/KTPL):
+Cung hoàng đạo tổng mean cao nhất: Ma Kết (tổng mean: 18.97)

@@ -1,0 +1,302 @@
+﻿===== HƯỚNG 2: PHÂN TÍCH TƯƠNG QUAN VÀ MÔ HÌNH HÓA DỰ BÁO =====
+
+
+===== PHẦN 1: PHÂN NHÓM XU HƯỚNG HỌC THEO COHEN'S D =====
+
+Ghi chú lý thuyết:
+  - Cohen's d là effect size chuẩn trong nghiên cứu giáo dục (Cohen, 1988)
+  - Công thức: d = (Mean_Văn - Mean_Toán) / SD_chung
+  - Phân loại effect size:
+    * |d| < 0.2: Lệch không đáng kể
+    * 0.2 ≤ |d| < 0.5: Lệch nhỏ
+    * 0.5 ≤ |d| < 0.8: Lệch trung bình
+    * |d| ≥ 0.8: Lệch lớn
+
+Phân bố thí sinh theo xu hướng học:
+Xu hướng phân loại
+Lệch mạnh              93434
+Cân bằng (lệch nhỏ)    14427
+Lệch rõ                 9182
+Cân bằng                6882
+Cân bằng hoàn toàn      3064
+Không xác định          2159
+Name: count, dtype: int64
+
+Phân bố theo hướng (Thiên Văn / Cân bằng / Thiên Toán):
+Xu hướng học
+Thiên Văn             109272
+Thiên Toán             14678
+Cân bằng hoàn toàn      3039
+N/A                     2159
+Name: count, dtype: int64
+
+Thống kê Cohen's d:
+  - Trung bình: 1.1805
+  - Trung vị: 1.3013
+  - Độ lệch chuẩn: 1.0000
+  - Min: -4.2292
+  - Max: 5.6932
+
+
+===== PHẦN 2: ANOVA TEST - SO SÁNH ĐIỂM GIỮA CÁC XU HƯỚNG HỌC =====
+
+ANOVA Test: So sánh Tổng điểm giữa 3 hướng (Thiên Văn / Cân bằng / Thiên Toán)
+  - F-statistic: 7027.9234
+  - p-value: 0.000000
+  - Kết luận: CÓ sự khác biệt có ý nghĩa thống kê (α=0.05)
+
+ANOVA Test: So sánh Tổng điểm giữa các magnitude của Cohen's d
+  - F-statistic: 2910.2220
+  - p-value: 0.000000
+  - Kết luận: CÓ sự khác biệt có ý nghĩa thống kê
+
+Thống kê mô tả theo xu hướng học:
+                   Tổng điểm                Toán Ngữ văn Tiếng Anh Cohens_d       Điểm trung bình bắt buộc Điểm trung bình tổ hợp
+                        mean   std   count  mean    mean      mean     mean   std                     mean                   mean
+Xu hướng học                                                                                                                     
+Thiên Toán             28.78  4.61   14678  7.49    6.46      6.73    -0.67  0.50                     6.98                   7.51
+Cân bằng hoàn toàn     27.69  4.16    3039  6.84    6.84      6.36     0.00  0.00                     6.84                   7.08
+Thiên Văn              24.57  3.85  109272  4.91    7.16      5.49     1.46  0.74                     6.03                   6.35
+N/A                    19.54  5.54    2159  6.43    6.34      5.90      NaN   NaN                      NaN                   6.62
+
+
+Phân tích ANOVA cho từng môn theo xu hướng học:
+
+Toán:
+   F-statistic: 55534.4185, p-value: 0.000000
+   Kết luận: CÓ hiệu ứng từ xu hướng học
+
+Ngữ văn:
+   F-statistic: 6495.0093, p-value: 0.000000
+   Kết luận: CÓ hiệu ứng từ xu hướng học
+
+Tiếng Anh:
+   F-statistic: 5412.9911, p-value: 0.000000
+   Kết luận: CÓ hiệu ứng từ xu hướng học
+
+Vật lí:
+   F-statistic: 10921.7042, p-value: 0.000000
+   Kết luận: CÓ hiệu ứng từ xu hướng học
+
+Hóa học:
+   F-statistic: 8407.3516, p-value: 0.000000
+   Kết luận: CÓ hiệu ứng từ xu hướng học
+
+Sinh học:
+   F-statistic: 2646.9073, p-value: 0.000000
+   Kết luận: CÓ hiệu ứng từ xu hướng học
+
+Lịch sử:
+   F-statistic: 32.7424, p-value: 0.000000
+   Kết luận: CÓ hiệu ứng từ xu hướng học
+
+Địa lí:
+   F-statistic: 10.2442, p-value: 0.001372
+   Kết luận: CÓ hiệu ứng từ xu hướng học
+
+GDCD/KTPL:
+   F-statistic: 10.7869, p-value: 0.001024
+   Kết luận: CÓ hiệu ứng từ xu hướng học
+
+Top 10 cặp môn có tương quan cao nhất:
+   Môn 1     Môn 2  Hệ số tương quan
+ Hóa học  Sinh học          0.750236
+  Vật lí   Hóa học          0.742669
+    Toán   Hóa học          0.735158
+    Toán  Sinh học          0.727508
+ Lịch sử    Địa lí          0.707415
+    Toán    Vật lí          0.688652
+Sinh học    Địa lí          0.631750
+ Hóa học    Địa lí          0.596863
+ Lịch sử GDCD/KTPL          0.560477
+ Hóa học   Lịch sử          0.541846
+
+
+Tương quan trong các tổ hợp nổi bật:
+Vật lí - Hóa học: 0.743
+Lịch sử - Địa lí: 0.707
+Toán - Vật lí: 0.689
+
+Kích thước tập train: 103318
+Kích thước tập test: 25830
+
+Các đặc trưng sử dụng: Toán, Ngữ văn, Tiếng Anh, Vật lí, Hóa học, Sinh học, Lịch sử, Địa lí, GDCD/KTPL, Nhóm tuổi_>18, Nhóm tuổi_Không xác định, Nhóm tuổi_Thi lại
+
+1. MÔ HÌNH HỒI QUY TUYẾN TÍNH (LINEAR REGRESSION)
+   R² Score: 0.8946
+   RMSE: 1.3902
+   MAE: 0.6822
+
+2. MÔ HÌNH RANDOM FOREST
+   R² Score: 0.9582
+   RMSE: 0.8750
+   MAE: 0.3668
+
+3. MÔ HÌNH GRADIENT BOOSTING
+   R² Score: 0.9453
+   RMSE: 1.0017
+   MAE: 0.4697
+
+
+===== K-FOLD CROSS VALIDATION (K=10) =====
+
+Linear Regression:
+   RMSE trung bình: 1.4081
+   Độ lệch chuẩn: 0.0306
+
+Random Forest:
+   RMSE trung bình: 0.8492
+   Độ lệch chuẩn: 0.0132
+
+Gradient Boosting:
+   RMSE trung bình: 1.0242
+   Độ lệch chuẩn: 0.0225
+
+
+===== DIỄN GIẢI MÔ HÌNH VỚI SHAP (SHapley Additive exPlanations) =====
+
+Phân tích này cho thấy mức độ ảnh hưởng của từng đặc trưng (bao gồm các môn học và Nhóm tuổi)
+
+Độ quan trọng của các đặc trưng (SHAP values):
+                 Feature  SHAP Importance
+                    Toán         1.578225
+                 Ngữ văn         0.846738
+                  Vật lí         0.643782
+                  Địa lí         0.589374
+               Tiếng Anh         0.568442
+               GDCD/KTPL         0.565600
+                 Lịch sử         0.490773
+                 Hóa học         0.401698
+       Nhóm tuổi_Thi lại         0.223336
+                Sinh học         0.090754
+           Nhóm tuổi_>18         0.000054
+Nhóm tuổi_Không xác định         0.000000
+
+
+===== PHẦN 5: MÔ HÌNH DỰ BÁO THEO XU HƯỚNG HỌC (COHEN'S D) =====
+
+Xu hướng 'Thiên Văn' (N=109272):
+   R² Score: 0.9080
+   RMSE: 1.1767
+   MAE: 0.6167
+
+Xu hướng 'Thiên Toán' (N=14678):
+   R² Score: 0.9288
+   RMSE: 1.2378
+   MAE: 0.6090
+
+
+===== PHẦN 6: MÔ HÌNH DỰ BÁO THEO TỔ HỢP 3 MÔN (COMBO_3) =====
+
+Số tổ hợp có ≥30 thí sinh: 15
+Danh sách tổ hợp: A01, D01, A00, C00, B00, C04, C03, Không xác định, C01, C11, C02, C14, B03, A07, D07
+
+
+Mô hình dự báo Gradient Boosting cho từng tổ hợp 3 môn:
+
+Tổ hợp 'A01' (N=31387):
+   Môn: Toán, Vật lí, Tiếng Anh
+   R² Score: 0.9441
+   RMSE: 0.9055
+   MAE: 0.7117
+
+Tổ hợp 'D01' (N=30367):
+   Môn: Ngữ văn, Toán, Tiếng Anh
+   R² Score: 0.8288
+   RMSE: 1.4318
+   MAE: 1.1517
+
+Tổ hợp 'A00' (N=21677):
+   Môn: Toán, Vật lí, Hóa học
+   R² Score: 0.9445
+   RMSE: 1.0830
+   MAE: 0.7586
+
+Tổ hợp 'C00' (N=19360):
+   Môn: Ngữ văn, Lịch sử, Địa lí
+   R² Score: 0.9548
+   RMSE: 0.8958
+   MAE: 0.7121
+
+Tổ hợp 'B00' (N=7725):
+   Môn: Toán, Hóa học, Sinh học
+   R² Score: 0.9674
+   RMSE: 0.9048
+   MAE: 0.6987
+
+Tổ hợp 'C04' (N=5938):
+   Môn: Ngữ văn, Toán, Địa lí
+   R² Score: 0.9281
+   RMSE: 0.9434
+   MAE: 0.7545
+
+Tổ hợp 'C03' (N=5577):
+   Môn: Ngữ văn, Toán, Lịch sử
+   R² Score: 0.8302
+   RMSE: 1.5401
+   MAE: 1.2599
+
+Tổ hợp 'Không xác định' (N=3600):
+   Môn: Toán, Ngữ văn, Tiếng Anh, Vật lí, Hóa học, Sinh học, Lịch sử, Địa lí, GDCD/KTPL
+   R² Score: 0.8668
+   RMSE: 1.6249
+   MAE: 0.8601
+
+Tổ hợp 'C01' (N=980):
+   Môn: Ngữ văn, Toán, Vật lí
+   R² Score: 0.8993
+   RMSE: 0.9409
+   MAE: 0.7220
+
+Tổ hợp 'C11' (N=953):
+   Môn: Toán, Ngữ văn, Tiếng Anh, Vật lí, Hóa học, Sinh học, Lịch sử, Địa lí, GDCD/KTPL
+   R² Score: 0.9847
+   RMSE: 0.4289
+   MAE: 0.3250
+
+Tổ hợp 'C02' (N=603):
+   Môn: Ngữ văn, Toán, Hóa học
+   R² Score: 0.9082
+   RMSE: 1.2662
+   MAE: 1.0178
+
+Tổ hợp 'C14' (N=512):
+   Môn: Ngữ văn, Toán, GDCD/KTPL
+   R² Score: 0.8170
+   RMSE: 1.6142
+   MAE: 1.2591
+
+Tổ hợp 'B03' (N=278):
+   Môn: Toán, Sinh học, Ngữ văn
+   R² Score: 0.8303
+   RMSE: 1.5026
+   MAE: 1.2347
+
+Tổ hợp 'A07' (N=80):
+   Môn: Toán, Lịch sử, Địa lí
+   R² Score: 0.5613
+   RMSE: 6.8785
+   MAE: 5.3619
+
+Tổ hợp 'D07' (N=54):
+   Môn: Toán, Hóa học, Tiếng Anh
+   R² Score: 0.9151
+   RMSE: 0.8497
+   MAE: 0.6792
+
+
+===== PHẦN 10: PHÂN TÍCH SO SÁNH THEO NHÓM TUỔI =====
+
+ANOVA Test: So sánh Tổng điểm giữa các Nhóm tuổi
+  - F-statistic: 4366.4876
+  - p-value: 0.000000
+  - Kết luận: CÓ sự khác biệt có ý nghĩa thống kê (α=0.05)
+
+Thống kê mô tả theo Nhóm tuổi:
+          Tổng điểm                Toán Ngữ văn Tiếng Anh Hóa học Vật lí Sinh học Lịch sử Địa lí GDCD/KTPL
+               mean   std   count  mean    mean      mean    mean   mean     mean    mean   mean      mean
+Nhóm tuổi                                                                                                 
+18            25.33  4.09  118436  5.33    7.11      5.68    6.00   7.02     6.33    6.76   6.89      8.01
+>18           22.62  4.17    7842  4.07    6.41      5.07    4.67   5.89     5.14    6.16   6.29      7.61
+Thi lại       19.32  5.97    2869  5.79    6.42      5.66    6.36   6.35     6.63    6.45   6.95      7.56
+

@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+/* Thêm vào src/index.css */
+.custom-scrollbar {
+  scroll-behavior: smooth; /* Làm scroll mượt mà */
+}
+.custom-scrollbar::-webkit-scrollbar {
+  height: 4px; /* Làm thanh kéo ngang nhỏ hơn (default thường 16px) */
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #ccc; /* Màu thanh kéo */
+  border-radius: 2px; /* Bo góc nhẹ */
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent; /* Nền trong suốt */
+}
+/* Fallback cho Firefox (scrollbar-width không hỗ trợ height, nhưng có thể dùng width cho ngang) */
+.custom-scrollbar {
+  scrollbar-width: thin; /* Làm scrollbar mỏng hơn */
+  scrollbar-color: #ccc transparent;
+}

@@ -1,0 +1,258 @@
+﻿  Môn học  Tổng số thí sinh  Điểm trung bình (Mean)  Điểm trung bình Toàn quốc  Chênh lệch điểm trung bình  Trung vị (Median)  Trung vị Toàn quốc  Chênh lệch Trung vị  Độ lệch chuẩn (Std)  Độ lệch chuẩn Toàn quốc  Chênh lệch Độ lệch chuẩn  Độ lệch tuyệt đối trung vị (MAD)  Độ lệch tuyệt đối trung vị (MAD) Toàn quốc  Chênh lệch Độ lệch tuyệt đối trung vị (MAD)  Số thí sinh điểm <5  Số thí sinh điểm <5 Toàn quốc  Tỉ lệ Số thí sinh điểm <5 so với toàn quốc (%)  Số thí sinh điểm <5 theo %  Số thí sinh điểm <5 theo % Toàn quốc  Chênh lệch Số thí sinh điểm <5 theo %  Số thí sinh điểm >=7  Số thí sinh điểm >=7 Toàn quốc  Tỉ lệ Số thí sinh điểm >=7 so với toàn quốc (%)  Số thí sinh điểm >=7 theo %  Số thí sinh điểm >=7 theo % Toàn quốc  Chênh lệch Số thí sinh điểm >=7 theo %  Điểm nhiều thí sinh đạt được nhất (Mode)  Điểm nhiều thí sinh đạt được nhiều nhất (Mode) Toàn quốc  Chênh lệch Điểm nhiều thí sinh đạt được nhất (Mode)  Số thí sinh đạt điểm 10  Số thí sinh đạt điểm 10 Toàn quốc Tỉ lệ Số thí sinh đạt điểm 10 so với toàn quốc (%)  Số thí sinh đạt điểm 0  Số thí sinh đạt điểm 0 Toàn quốc Tỉ lệ Số thí sinh đạt điểm 0 so với toàn quốc (%)  Số thí sinh đạt điểm <=1  Số thí sinh đạt điểm <=1 Toàn quốc  Chênh lệch Số thí sinh đạt điểm <=1  Số thí sinh đạt điểm <=1 theo %  Số thí sinh đạt điểm <=1 theo % Toàn quốc  Chênh lệch Số thí sinh đạt điểm <=1 theo %  Tỉ lệ điểm 10/1000 thí sinh  Tỉ lệ điểm 10/1000 thí sinh Toàn quốc  Chênh lệch Tỉ lệ điểm 10/1000 thí sinh
+     Toán            128218                    5.26                       4.78                        0.48               5.25                4.60                 0.65                 1.52                     1.68                     -0.16                              1.00                                        1.35                                        -0.35                55232                         635102                                            8.70                      43.077                                56.395                                 -13.32                 19269                          137741                                            13.99                       15.028                                 12.231                                    2.80                                      5.25                                                      4.75                                                 0.50                       43                                513                                               8.38                       2                                 6                                             33.33                        28                                 777                                 -749                            0.022                                      0.069                                       -0.05                       0.3354                                 0.4555                                   -0.12
+  Ngữ văn            127901                    7.06                       7.00                        0.06               7.25                7.25                 0.00                 1.01                     1.28                     -0.27                              0.50                                        1.00                                        -0.50                 3645                          70308                                            5.18                       2.850                                 6.240                                  -3.39                 80402                          671209                                            11.98                       62.863                                 59.572                                    3.29                                      7.50                                                      7.50                                                 0.00                        0                                  0                                                N/A                       4                                 7                                             57.14                        15                                  87                                  -72                            0.012                                      0.008                                        0.00                       0.0000                                 0.0000                                    0.00
+Tiếng Anh             62809                    5.67                       5.38                        0.29               5.50                5.25                 0.25                 1.45                     1.45                      0.00                              1.00                                        1.16                                        -0.16                19069                         134478                                           14.18                      30.360                                38.220                                  -7.86                 12583                           53251                                            23.63                       20.034                                 15.135                                    4.90                                      5.25                                                      5.25                                                 0.00                       30                                141                                              21.28                       2                                 2                                             100.0                         5                                  28                                  -23                            0.008                                      0.008                                        0.00                       0.4776                                 0.4007                                    0.08
+   Vật lí             57611                    6.98                       6.99                       -0.01               7.00                7.00                 0.00                 1.45                     1.52                     -0.07                              1.00                                        1.25                                        -0.25                 4780                          34029                                           14.05                       8.297                                 9.790                                  -1.49                 30498                          186531                                            16.35                       52.938                                 53.663                                   -0.72                                      7.50                                                      7.50                                                 0.00                      634                               3929                                              16.14                       1                                 1                                             100.0                         1                                   3                                   -2                            0.002                                      0.001                                        0.00                      11.0048                                11.3033                                   -0.30
+  Hóa học             36252                    5.95                       6.06                       -0.11               5.75                6.00                -0.25                 1.81                     1.81                      0.00                              1.27                                        1.51                                        -0.24                11503                          70910                                           16.22                      31.731                                29.529                                   2.20                 11318                           80847                                            14.00                       31.220                                 33.667                                   -2.45                                      5.75                                                      6.25                                                -0.50                       59                                625                                               9.44                       2                                 0                                               N/A                         5                                   8                                   -3                            0.014                                      0.003                                        0.01                       1.6275                                 2.6027                                   -0.98
+ Sinh học              9689                    6.29                       5.78                        0.51               6.25                5.75                 0.50                 1.52                     1.58                     -0.06                              1.15                                        1.30                                        -0.15                 1965                          22674                                            8.67                      20.281                                32.440                                 -12.16                  3468                           17579                                            19.73                       35.793                                 25.151                                   10.64                                      7.25                                                      6.50                                                 0.75                       20                                 82                                              24.39                       2                                 0                                               N/A                         3                                   1                                    2                            0.031                                      0.001                                        0.03                       2.0642                                 1.1732                                    0.89
+  Lịch sử             32987                    6.67                       6.52                        0.15               6.75                6.60                 0.15                 1.50                     1.63                     -0.13                              1.00                                        1.36                                        -0.36                 4598                          89665                                            5.13                      13.939                                18.630                                  -4.69                 15715                          210702                                             7.46                       47.640                                 43.778                                    3.86                                      7.00                                                      7.25                                                -0.25                       54                               1518                                               3.56                       2                                 2                                             100.0                         3                                  13                                  -10                            0.009                                      0.003                                        0.01                       1.6370                                 3.1540                                   -1.52
+   Địa lí             34962                    6.82                       6.63                        0.19               6.85                6.75                 0.10                 1.56                     1.75                     -0.19                              1.15                                        1.45                                        -0.30                 4497                          89054                                            5.05                      12.863                                18.690                                  -5.83                 17305                          215695                                             8.02                       49.497                                 45.269                                    4.23                                      7.75                                                      7.75                                                 0.00                      314                               6907                                               4.55                       1                                 3                                             33.33                         4                                  19                                  -15                            0.011                                      0.004                                        0.01                       8.9812                                14.4961                                   -5.51
+GDCD/KTPL             20288                    7.97                       7.69                        0.28               8.00                7.75                 0.25                 1.03                     1.18                     -0.15                              0.75                                        0.92                                        -0.17                  203                           6324                                            3.21                       1.001                                 2.567                                  -1.57                 17516                          192613                                             9.09                       86.337                                 78.171                                    8.17                                      8.25                                                      8.25                                                 0.00                      166                               1451                                              11.44                       1                                 0                                               N/A                         1                                   0                                    1                            0.005                                      0.000                                        0.00                       8.1822                                 5.8888                                    2.29
+
+===== KIỂM ĐỊNH THỐNG KÊ =====
+
+2. ANOVA: So sánh TỔNG ĐIỂM (gốc) giữa các nhóm tuổi
+   F-statistic: 4366.4876, p-value: 0
+   Kết luận: Có sự khác biệt có ý nghĩa thống kê (α=0.05)
+
+
+3. ANOVA: So sánh ĐIỂM TỔ HỢP 3 MÔN (tính lại) giữa các TỔ HỢP
+   F-statistic: 1170.9506, p-value: 0
+   Kết luận: Có sự khác biệt có ý nghĩa thống kê về Điểm tổ hợp 3 môn giữa các tổ hợp (α=0.05)
+
+4. K-S test: Kiểm tra phân phối chuẩn cho môn Toán
+   KS-statistic: 0.9749, p-value: 0
+   Kết luận: Dữ liệu KHÔNG tuân theo phân phối chuẩn
+
+4. K-S test: Kiểm tra phân phối chuẩn cho môn Ngữ văn
+   KS-statistic: 0.9966, p-value: 0
+   Kết luận: Dữ liệu KHÔNG tuân theo phân phối chuẩn
+
+4. K-S test: Kiểm tra phân phối chuẩn cho môn Tiếng Anh
+   KS-statistic: 0.9884, p-value: 0
+   Kết luận: Dữ liệu KHÔNG tuân theo phân phối chuẩn
+
+4. K-S test: Kiểm tra phân phối chuẩn cho môn Vật lí
+   KS-statistic: 0.9966, p-value: 0
+   Kết luận: Dữ liệu KHÔNG tuân theo phân phối chuẩn
+
+4. K-S test: Kiểm tra phân phối chuẩn cho môn Hóa học
+   KS-statistic: 0.9828, p-value: 0
+   Kết luận: Dữ liệu KHÔNG tuân theo phân phối chuẩn
+
+4. K-S test: Kiểm tra phân phối chuẩn cho môn Sinh học
+   KS-statistic: 0.9910, p-value: 0
+   Kết luận: Dữ liệu KHÔNG tuân theo phân phối chuẩn
+
+4. K-S test: Kiểm tra phân phối chuẩn cho môn Lịch sử
+   KS-statistic: 0.9933, p-value: 0
+   Kết luận: Dữ liệu KHÔNG tuân theo phân phối chuẩn
+
+4. K-S test: Kiểm tra phân phối chuẩn cho môn Địa lí
+   KS-statistic: 0.9930, p-value: 0
+   Kết luận: Dữ liệu KHÔNG tuân theo phân phối chuẩn
+
+4. K-S test: Kiểm tra phân phối chuẩn cho môn GDCD/KTPL
+   KS-statistic: 0.9985, p-value: 0
+   Kết luận: Dữ liệu KHÔNG tuân theo phân phối chuẩn
+
+4. K-S test: Kiểm tra phân phối chuẩn cho môn Tổng điểm
+   KS-statistic: 0.9999, p-value: 0
+   Kết luận: Dữ liệu KHÔNG tuân theo phân phối chuẩn
+
+
+===== PHÂN TÍCH LỢI THẾ ĐÔ THỊ (URBAN ADVANTAGE) =====
+
+Toán:
+   TPHCM: 5.26
+   Toàn quốc: 4.78
+   Lợi thế đô thị: +0.48 (+10.04%)
+
+Ngữ văn:
+   TPHCM: 7.06
+   Toàn quốc: 7.00
+   Lợi thế đô thị: +0.06 (+0.86%)
+
+Tiếng Anh:
+   TPHCM: 5.67
+   Toàn quốc: 5.38
+   Lợi thế đô thị: +0.29 (+5.39%)
+
+Vật lí:
+   TPHCM: 6.98
+   Toàn quốc: 6.99
+   Lợi thế đô thị: +-0.01 (-0.14%)
+
+Hóa học:
+   TPHCM: 5.95
+   Toàn quốc: 6.06
+   Lợi thế đô thị: +-0.11 (-1.82%)
+
+Sinh học:
+   TPHCM: 6.29
+   Toàn quốc: 5.78
+   Lợi thế đô thị: +0.51 (+8.82%)
+
+Lịch sử:
+   TPHCM: 6.67
+   Toàn quốc: 6.52
+   Lợi thế đô thị: +0.15 (+2.30%)
+
+Địa lí:
+   TPHCM: 6.82
+   Toàn quốc: 6.63
+   Lợi thế đô thị: +0.19 (+2.87%)
+
+GDCD/KTPL:
+   TPHCM: 7.97
+   Toàn quốc: 7.69
+   Lợi thế đô thị: +0.28 (+3.64%)
+
+
+===== PHÂN TÍCH THEO TỔ HỢP MÔN TỰ CHỌN (GỐC) =====
+
+Nhằm trả lời 2 câu hỏi: 1. Thí sinh chọn Tổ hợp (chuỗi gốc) nào nhiều nhất? 2. Tổ hợp (chuỗi gốc) nào có điểm trung bình (gốc) cao nhất?
+Thống kê tổ hợp môn (sắp xếp theo số thí sinh):
+                                                   Tổng điểm             
+                                                        mean   std  count
+Tổ hợp tự chọn                                                           
+A01, D01, D10, C01                                     26.25  3.77  31126
+A00, C01, C02, C05                                     25.62  4.54  21370
+C00, A07, C03, C04                                     23.96  4.24  18640
+D01, C14, D84, D66                                     26.00  3.00   8623
+D01, C04, D10, D15                                     25.24  3.33   7540
+D01, C03, D09, D14                                     25.27  3.43   7399
+B00, B03, C02, C08                                     26.18  4.82   7269
+C04, C14, A09, C20                                     24.78  3.40   5893
+D01, C02, D07, D12                                     24.99  3.81   5642
+C03, C14, A08, C19                                     24.28  3.52   3730
+C03, C01, A03, C07                                     22.89  3.30   1207
+C11, C04, A04, C09                                     24.18  3.37    953
+C01, C14, A10, C16                                     25.60  2.72    950
+D01, B03, D08, B08, D13                                23.60  3.80    840
+C00                                                    19.98  3.98    720
+B00                                                    20.18  3.81    456
+C02, C04, A06                                          19.99  3.95    432
+C14, B03, A02, C06                                     21.92  3.62    414
+D01                                                    18.59  3.64    323
+A00                                                    18.83  4.69    276
+A01                                                    18.85  3.90    261
+C03, B03, B01, C12                                     19.86  3.25    251
+C03, C02, A05, C10                                     21.05  3.79    224
+C02, C14, A11, C1                                      24.22  2.85    166
+C03                                                    17.00  3.82    165
+B03, C04, B02, C13                                     21.16  3.94    151
+B03, C14, B04                                          22.89  3.03    124
+C14                                                    17.30  2.90     98
+A07, A08, A09, C00, C03, C04, C14, C15, C19, C2...     33.84  8.94     74
+D07                                                    18.91  4.33     54
+C04                                                    16.22  3.34     45
+A00, A01, A02, A16, B00, B03, B08, C01, C02, C0...     31.18  8.40     31
+C01                                                    17.94  3.53     30
+D14                                                    20.70  3.24     28
+D09                                                    15.47  3.80      7
+A07                                                    13.09  3.45      6
+C02                                                    13.68  2.48      5
+C19                                                    22.25  4.21      5
+D08                                                    17.89  4.85      4
+B03                                                    16.75  0.80      3
+D15                                                    18.30  5.20      3
+A09                                                    16.73  1.45      2
+C20                                                    16.35  1.41      2
+D10                                                    14.32  8.10      2
+D66                                                    23.75  2.83      2
+D84                                                    20.88  3.50      2
+
+===== PHÂN TÍCH THEO TỔ HỢP 3 MÔN (ĐIỂM TÍNH LẠI) =====
+
+Thống kê cho từng tổ hợp 3 môn (sắp xếp theo số thí sinh):
+              Điểm_TB_3_môn  Độ_lệch_chuẩn_3_môn  Số_lượng
+Tổ hợp 3 môn                                              
+D01                   18.59                 2.74     62318
+C01                   19.96                 3.00     56975
+C02                   18.83                 3.40     35364
+C04                   17.92                 3.08     34140
+C03                   17.76                 3.05     32136
+A01                   19.02                 3.52     31473
+D11                   20.19                 2.71     31164
+A00                   18.62                 4.23     21777
+C05                   19.81                 3.36     21418
+C14                   19.41                 2.58     20199
+C00                   19.95                 3.61     19531
+A07                   17.26                 3.57     18750
+B03                   19.08                 3.35      9157
+D66                   20.95                 2.35      8709
+D84                   18.59                 2.58      8705
+B00                   19.11                 4.52      7834
+D15                   20.13                 2.68      7642
+D10                   17.81                 2.95      7631
+D14                   20.19                 2.77      7528
+D09                   17.80                 3.01      7496
+C08                   20.12                 3.50      7310
+C20                   20.77                 2.83      6048
+A09                   18.14                 2.82      5990
+D07                   17.64                 3.56      5793
+D12                   19.16                 2.89      5681
+C19                   20.41                 3.00      3890
+A08                   17.73                 2.89      3825
+A03                   16.25                 2.82      1207
+A04                   17.42                 2.96       953
+A10                   18.63                 2.29       950
+D08                   16.53                 3.56       909
+B08                   16.53                 3.56       909
+D13                   18.38                 2.97       872
+A02                   15.62                 3.37       512
+A06                   13.56                 3.24       432
+C12                   16.21                 2.57       251
+A05                   14.47                 3.20       224
+A11                   17.29                 2.41       166
+C17                   19.56                 2.24       166
+B02                   14.81                 3.14       151
+C13                   17.14                 3.23       151
+B04                   16.26                 2.42       124
+
+Thống kê cho từng tổ hợp 3 môn (sắp xếp theo điểm trung bình 3 môn):
+              Điểm_TB_3_môn  Độ_lệch_chuẩn_3_môn  Số_lượng
+Tổ hợp 3 môn                                              
+D66                   20.95                 2.35      8709
+C20                   20.77                 2.83      6048
+C19                   20.41                 3.00      3890
+D11                   20.19                 2.71     31164
+D14                   20.19                 2.77      7528
+D15                   20.13                 2.68      7642
+C08                   20.12                 3.50      7310
+C01                   19.96                 3.00     56975
+C00                   19.95                 3.61     19531
+C05                   19.81                 3.36     21418
+C17                   19.56                 2.24       166
+C14                   19.41                 2.58     20199
+D12                   19.16                 2.89      5681
+B00                   19.11                 4.52      7834
+B03                   19.08                 3.35      9157
+A01                   19.02                 3.52     31473
+C02                   18.83                 3.40     35364
+A10                   18.63                 2.29       950
+A00                   18.62                 4.23     21777
+D84                   18.59                 2.58      8705
+D01                   18.59                 2.74     62318
+D13                   18.38                 2.97       872
+A09                   18.14                 2.82      5990
+C04                   17.92                 3.08     34140
+D10                   17.81                 2.95      7631
+D09                   17.80                 3.01      7496
+C03                   17.76                 3.05     32136
+A08                   17.73                 2.89      3825
+D07                   17.64                 3.56      5793
+A04                   17.42                 2.96       953
+A11                   17.29                 2.41       166
+A07                   17.26                 3.57     18750
+C13                   17.14                 3.23       151
+B08                   16.53                 3.56       909
+D08                   16.53                 3.56       909
+B04                   16.26                 2.42       124
+A03                   16.25                 2.82      1207
+C12                   16.21                 2.57       251
+A02                   15.62                 3.37       512
+B02                   14.81                 3.14       151
+A05                   14.47                 3.20       224
+A06                   13.56                 3.24       432
